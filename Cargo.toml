@@ -6,7 +6,7 @@ license = "MIT"
 keywords = ["bindings", "llvm"]
 categories = ["external-ffi-bindings"]
 links = "llvm-12"
-name = "llvm-sys"
+name = "llvm-sys-120"
 version = "120.2.2"
 authors = [
   "Peter Marheine <peter@taricorp.net>",
