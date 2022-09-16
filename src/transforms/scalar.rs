@@ -19,7 +19,8 @@ extern "C" {
     pub fn LLVMAddJumpThreadingPass(PM: LLVMPassManagerRef);
     pub fn LLVMAddLICMPass(PM: LLVMPassManagerRef);
     pub fn LLVMAddLoopDeletionPass(PM: LLVMPassManagerRef);
-    pub fn LLVMAddBoundsCheckPass(PM: LLVMPassManagerRef);
+    pub fn LLVMAddWasmerMemoryAccessAnalysis(PM: LLVMPassManagerRef);
+    pub fn LLVMAddWasmerBoundsCheckLoopOptimization(PM: LLVMPassManagerRef);
     pub fn LLVMAddLoopIdiomPass(PM: LLVMPassManagerRef);
     pub fn LLVMAddLoopRotatePass(PM: LLVMPassManagerRef);
     pub fn LLVMAddLoopRerollPass(PM: LLVMPassManagerRef);
